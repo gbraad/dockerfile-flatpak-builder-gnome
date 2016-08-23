@@ -9,5 +9,7 @@ RUN mkdir -p /workspace; \
     flatpak install gnome org.gnome.Sdk 3.20
 
 VOLUME /workspace
+WORKDIR /workspace
+
 CMD bash
 

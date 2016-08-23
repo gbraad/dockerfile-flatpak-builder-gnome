@@ -10,9 +10,11 @@ Build container for flatpak with pre-installed GNOME 3.20 Runtime and SDK.
 Usage
 -----
 
-  * flatpak-builder  
-    `docker pull registry.gitlab.com/gbraad/flatpak-builder-gnome`
-  * ...
+```
+$ alias flatpak-builder-gnome='docker run -it --rm -v $PWD:/workspace registry.gitlab.com/gbraad/flatpak-builder-gnome bash'
+$ flatpak-builder-gnome
+[root@655f34f18fb5 workspace]# 
+```
 
 
 Authors
